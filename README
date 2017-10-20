@@ -1,0 +1,31 @@
+name : Fang LI
+
+====================
+Implemented the multinomial Naive Bayes algorithm;
+Ignored punctuation and special characters and normalize words by converting them to lower case;
+Converting plural words to singular;
+Deleteded stopwords and can print accuracy rate both with and without stopwords(check the result file);
+
+====================
+Run the code (as declared in Announcements and it will generate a result file result.txt two values in two lines)
+	python hw2.py <stopWords directory> <training directory> <test directory>
+
+if you feel it runs a little bit slow please wait a second
+
+result:
+accuracy rate = 0.958158995816
+accuracy rate = 0.918410041841 (without stopwords)
+
+After remove stop words accuracy rate declined 
+	spam rate =  0.976923076923
+	ham rate =  0.951149425287
+	accuracy rate =(with stopword) 0.958158995816
+
+	spam rate =  0.984615384615
+	ham rate =  0.89367816092
+	accuracy rate = (without stopword)  0.918410041841
+we can see that after remove stop words the ability to recognize ham email declined because stop wors are words that appear very frequently but doesn't mean anything. It appears many times in ham emails but may appear less times in spam email than ham email because in spam email there is usually no so many regular sentence so not so many stop wors, if we remove stop wors it wont effect spam email but will reduce ham email recognition rate.
+
+
+
+

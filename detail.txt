@@ -1,0 +1,20 @@
+1. The accuracy on the test set for Naive Bayes algorithm.
+	accuracy rate = 0.958158995816
+	
+
+2. Accuracy on the test set for the variations with stop word removal and feature selection.
+	accuracy rate = 0.918410041841 after remove stopwords
+
+	After remove stop words accuracy rate declined 
+	spam rate =  0.976923076923
+	ham rate =  0.951149425287
+	accuracy rate =(with stopword) 0.958158995816
+
+	spam rate =  0.984615384615
+	ham rate =  0.89367816092
+	accuracy rate = (without stopword)  0.918410041841
+we can see that after remove stop words the ability to recognize ham email declined because stop wors are words that appear very frequently but doesn't mean anything. It appears many times in ham emails but may appear less times in spam email than ham email because in spam email there is usually no so many regular sentence so not so many stop wors, if we remove stop wors it wont effect spam email but will reduce ham email recognition rate.
+
+
+3. Answers to point estimation questions.
+	not well typed yet will submit a well typed file later
